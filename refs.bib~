@@ -1,0 +1,443 @@
+@misc{batson2019noise2self,
+      title={Noise2Self: Blind Denoising by Self-Supervision}, 
+      author={Joshua Batson and Loic Royer},
+      year={2019},
+      eprint={1901.11365},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@article{tjarnberg2021,
+    doi = {10.1371/journal.pcbi.1008569},
+    author = {Tjärnberg, Andreas AND Mahmood, Omar AND Jackson, Christopher A. AND Saldi, Giuseppe-Antonio AND Cho, Kyunghyun AND Christiaen, Lionel A. AND Bonneau, Richard A.},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {Optimal tuning of weighted kNN- and diffusion-based methods for denoising single cell genomics data},
+    year = {2021},
+    month = {01},
+    volume = {17},
+    url = {https://doi.org/10.1371/journal.pcbi.1008569},
+    pages = {1-22},
+    abstract = {The analysis of single-cell genomics data presents several statistical challenges, and extensive efforts have been made to produce methods for the analysis of this data that impute missing values, address sampling issues and quantify and correct for noise. In spite of such efforts, no consensus on best practices has been established and all current approaches vary substantially based on the available data and empirical tests. The k-Nearest Neighbor Graph (kNN-G) is often used to infer the identities of, and relationships between, cells and is the basis of many widely used dimensionality-reduction and projection methods. The kNN-G has also been the basis for imputation methods using, e.g., neighbor averaging and graph diffusion. However, due to the lack of an agreed-upon optimal objective function for choosing hyperparameters, these methods tend to oversmooth data, thereby resulting in a loss of information with regard to cell identity and the specific gene-to-gene patterns underlying regulatory mechanisms. In this paper, we investigate the tuning of kNN- and diffusion-based denoising methods with a novel non-stochastic method for optimally preserving biologically relevant informative variance in single-cell data. The framework, Denoising Expression data with a Weighted Affinity Kernel and Self-Supervision (DEWÄKSS), uses a self-supervised technique to tune its parameters. We demonstrate that denoising with optimal parameters selected by our objective function (i) is robust to preprocessing methods using data from established benchmarks, (ii) disentangles cellular identity and maintains robust clusters over dimension-reduction methods, (iii) maintains variance along several expression dimensions, unlike previous heuristic-based methods that tend to oversmooth data variance, and (iv) rarely involves diffusion but rather uses a fixed weighted kNN graph for denoising. Together, these findings provide a new understanding of kNN- and diffusion-based denoising methods. Code and example data for DEWÄKSS is available at https://gitlab.com/Xparx/dewakss/-/tree/Tjarnberg2020branch.},
+    number = {1},
+
+}
+@article{carpenter2006cellprofiler,
+  title={CellProfiler: image analysis software for identifying and quantifying cell phenotypes},
+  author={Carpenter, Anne E and Jones, Thouis R and Lamprecht, Michael R and Clarke, Colin and Kang, In Han and Friman, Ola and Guertin, David A and Chang, Joo Han and Lindquist, Robert A and Moffat, Jason and others},
+  journal={Genome biology},
+  volume={7},
+  pages={1--11},
+  year={2006},
+  publisher={Springer}
+}
+
+@article{10.1093/nar/gkq973,
+    author = {Szklarczyk, Damian and Franceschini, Andrea and Kuhn, Michael and Simonovic, Milan and Roth, Alexander and Minguez, Pablo and Doerks, Tobias and Stark, Manuel and Muller, Jean and Bork, Peer and Jensen, Lars J. and Mering, Christian von},
+    title = "{The STRING database in 2011: functional interaction networks of proteins, globally integrated and scored}",
+    journal = {Nucleic Acids Research},
+    volume = {39},
+    number = {suppl\_1},
+    pages = {D561-D568},
+    year = {2010},
+    month = {11},
+    abstract = "{ An essential prerequisite for any systems-level understanding of cellular functions is to correctly uncover and annotate all functional interactions among proteins in the cell. Toward this goal, remarkable progress has been made in recent years, both in terms of experimental measurements and computational prediction techniques. However, public efforts to collect and present protein interaction information have struggled to keep up with the pace of interaction discovery, partly because protein–protein interaction information can be error-prone and require considerable effort to annotate. Here, we present an update on the online database resource Search Tool for the Retrieval of Interacting Genes (STRING); it provides uniquely comprehensive coverage and ease of access to both experimental as well as predicted interaction information. Interactions in STRING are provided with a confidence score, and accessory information such as protein domains and 3D structures is made available, all within a stable and consistent identifier space. New features in STRING include an interactive network viewer that can cluster networks on demand, updated on-screen previews of structural information including homology models, extensive data updates and strongly improved connectivity and integration with third-party resources. Version 9.0 of STRING covers more than 1100 completely sequenced organisms; the resource can be reached at http://string-db.org . }",
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkq973},
+    url = {https://doi.org/10.1093/nar/gkq973},
+}
+
+@article{cavanaugh2019akaike,
+  title={The Akaike information criterion: Background, derivation, properties, application, interpretation, and refinements},
+  author={Cavanaugh, Joseph E and Neath, Andrew A},
+  journal={Wiley Interdisciplinary Reviews: Computational Statistics},
+  volume={11},
+  number={3},
+  pages={e1460},
+  year={2019},
+  publisher={Wiley Online Library}
+}
+
+@article{subramanian2005gene,
+  title={Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles},
+  author={Subramanian, Aravind and Tamayo, Pablo and Mootha, Vamsi K and Mukherjee, Sayan and Ebert, Benjamin L and Gillette, Michael A and Paulovich, Amanda and Pomeroy, Scott L and Golub, Todd R and Lander, Eric S and others},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={102},
+  number={43},
+  pages={15545--15550},
+  year={2005},
+  publisher={National Acad Sciences}
+}
+
+@article{traag2019louvain,
+  title={From Louvain to Leiden: guaranteeing well-connected communities},
+  author={Traag, Vincent A and Waltman, Ludo and Van Eck, Nees Jan},
+  journal={Scientific reports},
+  volume={9},
+  number={1},
+  pages={1--12},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+
+@article{WANG2016232,
+title = {Auto-encoder based dimensionality reduction},
+journal = {Neurocomputing},
+volume = {184},
+pages = {232-242},
+year = {2016},
+note = {RoLoD: Robust Local Descriptors for Computer Vision 2014},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2015.08.104},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231215017671},
+author = {Yasi Wang and Hongxun Yao and Sicheng Zhao},
+keywords = {Auto-encoder, Dimensionality reduction, Visualization, Intrinsic dimensionality, Dimensionality-accuracy},
+abstract = {Auto-encoder—a tricky three-layered neural network, known as auto-association before, constructs the “building block” of deep learning, which has been demonstrated to achieve good performance in various domains. In this paper, we try to investigate the dimensionality reduction ability of auto-encoder, and see if it has some kind of good property that might accumulate when being stacked and thus contribute to the success of deep learning. Based on the above idea, this paper starts from auto-encoder and focuses on its ability to reduce the dimensionality, trying to understand the difference between auto-encoder and state-of-the-art dimensionality reduction methods. Experiments are conducted both on the synthesized data for an intuitive understanding of the method, mainly on two and three-dimensional spaces for better visualization, and on some real datasets, including MNIST and Olivetti face datasets. The results show that auto-encoder can indeed learn something different from other methods. Besides, we preliminarily investigate the influence of the number of hidden layer nodes on the performance of auto-encoder and its possible relation with the intrinsic dimensionality of input data.}
+}
+
+@article{PhysRevE.74.016110,
+  title = {Statistical mechanics of community detection},
+  author = {Reichardt, J\"org and Bornholdt, Stefan},
+  journal = {Phys. Rev. E},
+  volume = {74},
+  issue = {1},
+  pages = {016110},
+  numpages = {14},
+  year = {2006},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.74.016110},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.74.016110}
+}
+
+@article{ROUSSEEUW,
+title = {Silhouettes: A graphical aid to the interpretation and validation of cluster analysis},
+journal = {Journal of Computational and Applied Mathematics},
+volume = {20},
+pages = {53-65},
+year = {1987},
+issn = {0377-0427},
+doi = {https://doi.org/10.1016/0377-0427(87)90125-7},
+url = {https://www.sciencedirect.com/science/article/pii/0377042787901257},
+author = {Peter J. Rousseeuw},
+keywords = {Graphical display, cluster analysis, clustering validity, classification},
+abstract = {A new graphical display is proposed for partitioning techniques. Each cluster is represented by a so-called silhouette, which is based on the comparison of its tightness and separation. This silhouette shows which objects lie well within their cluster, and which ones are merely somewhere in between clusters. The entire clustering is displayed by combining the silhouettes into a single plot, allowing an appreciation of the relative quality of the clusters and an overview of the data configuration. The average silhouette width provides an evaluation of clustering validity, and might be used to select an ‘appropriate’ number of clusters.}
+}
+
+
+@article{elhage2022superposition,
+   title={Toy Models of Superposition},
+   author={Elhage, Nelson and Hume, Tristan and Olsson, Catherine and Schiefer, Nicholas and Henighan, Tom and Kravec, Shauna and Hatfield-Dodds, Zac and Lasenby, Robert and Drain, Dawn and Chen, Carol and Grosse, Roger and McCandlish, Sam and Kaplan, Jared and Amodei, Dario and Wattenberg, Martin and Olah, Christopher},
+   year={2022},
+   journal={Transformer Circuits Thread},
+   url={https://transformer-circuits.pub/2022/toy_model/index.html}
+}
+
+@misc{ren2022deep,
+      title={Deep Clustering: A Comprehensive Survey}, 
+      author={Yazhou Ren and Jingyu Pu and Zhimeng Yang and Jie Xu and Guofeng Li and Xiaorong Pu and Philip S. Yu and Lifang He},
+      year={2022},
+      eprint={2210.04142},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{U_ur_2020,
+   title={Variational Information Bottleneck for Unsupervised Clustering: Deep Gaussian Mixture Embedding},
+   volume={22},
+   ISSN={1099-4300},
+   url={http://dx.doi.org/10.3390/e22020213},
+   DOI={10.3390/e22020213},
+   number={2},
+   journal={Entropy},
+   publisher={MDPI AG},
+   author={Uğur, Yiğit and Arvanitakis, George and Zaidi, Abdellatif},
+   year={2020},
+   month=feb, pages={213}
+   }
+   
+@misc{huang2023deepclue,
+      title={DeepCluE: Enhanced Image Clustering via Multi-layer Ensembles in Deep Neural Networks}, 
+      author={Dong Huang and Ding-Hua Chen and Xiangji Chen and Chang-Dong Wang and Jian-Huang Lai},
+      year={2023},
+      eprint={2206.00359},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@misc{li2020contrastive,
+      title={Contrastive Clustering}, 
+      author={Yunfan Li and Peng Hu and Zitao Liu and Dezhong Peng and Joey Tianyi Zhou and Xi Peng},
+      year={2020},
+      eprint={2009.09687},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{alemi2019deep,
+      title={Deep Variational Information Bottleneck}, 
+      author={Alexander A. Alemi and Ian Fischer and Joshua V. Dillon and Kevin Murphy},
+      year={2019},
+      eprint={1612.00410},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{saha2023endtoend,
+      title={End-to-end Differentiable Clustering with Associative Memories}, 
+      author={Bishwajit Saha and Dmitry Krotov and Mohammed J. Zaki and Parikshit Ram},
+      year={2023},
+      eprint={2306.03209},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{Huang_2022,
+   title={Toward Multidiversified Ensemble Clustering of High-Dimensional Data: From Subspaces to Metrics and Beyond},
+   volume={52},
+   ISSN={2168-2275},
+   url={http://dx.doi.org/10.1109/TCYB.2021.3049633},
+   DOI={10.1109/tcyb.2021.3049633},
+   number={11},
+   journal={IEEE Transactions on Cybernetics},
+   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+   author={Huang, Dong and Wang, Chang-Dong and Lai, Jian-Huang and Kwoh, Chee-Keong},
+   year={2022},
+   month=nov, pages={12231–12244} }
+
+@ARTICLE{9830658,
+  author={Li, Liang and Wang, Siwei and Liu, Xinwang and Zhu, En and Shen, Li and Li, Kenli and Li, Keqin},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Local Sample-Weighted Multiple Kernel Clustering With Consensus Discriminative Graph}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TNNLS.2022.3184970}}
+
+@article{DBLP:journals/corr/SteegGSD13,
+  author       = {Greg Ver Steeg and
+                  Aram Galstyan and
+                  Fei Sha and
+                  Simon DeDeo},
+  title        = {Demystifying Information-Theoretic Clustering},
+  journal      = {CoRR},
+  volume       = {abs/1310.4210},
+  year         = {2013},
+  url          = {http://arxiv.org/abs/1310.4210},
+  eprinttype    = {arXiv},
+  eprint       = {1310.4210},
+  timestamp    = {Mon, 13 Aug 2018 16:47:56 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/SteegGSD13.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{xie2016unsupervised,
+      title={Unsupervised Deep Embedding for Clustering Analysis}, 
+      author={Junyuan Xie and Ross Girshick and Ali Farhadi},
+      year={2016},
+      eprint={1511.06335},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{cunningham2023sparse,
+      title={Sparse Autoencoders Find Highly Interpretable Features in Language Models}, 
+      author={Hoagy Cunningham and Aidan Ewart and Logan Riggs and Robert Huben and Lee Sharkey},
+      year={2023},
+      eprint={2309.08600},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{bricken2023monosemanticity,
+    title={Towards Monosemanticity: Decomposing Language Models With Dictionary Learning},
+    author={Bricken, Trenton and Templeton, Adly and Batson, Joshua and Chen, Brian and Jermyn, Adam and Conerly, Tom and Turner, Nick and Anil, Cem and Denison, Carson and Askell, Amanda and Lasenby, Robert and Wu, Yifan and Kravec, Shauna and Schiefer, Nicholas and Maxwell, Tim and Joseph, Nicholas and Hatfield-Dodds, Zac and Tamkin, Alex and Nguyen, Karina and McLean, Brayden and Burke, Josiah E and Hume, Tristan and Carter, Shan and Henighan, Tom and Olah, Christopher},
+    year={2023},
+    journal={Transformer Circuits Thread},
+    note={https://transformer-circuits.pub/2023/monosemantic-features/index.html}
+}
+
+
+@article{DBLP:journals/corr/abs-1810-08473,
+  author       = {Vincent A. Traag and
+                  Ludo Waltman and
+                  Nees Jan van Eck},
+  title        = {From Louvain to Leiden: guaranteeing well-connected communities},
+  journal      = {CoRR},
+  volume       = {abs/1810.08473},
+  year         = {2018},
+  url          = {http://arxiv.org/abs/1810.08473},
+  eprinttype    = {arXiv},
+  eprint       = {1810.08473},
+  timestamp    = {Wed, 31 Oct 2018 14:24:29 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1810-08473.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{elhage2021mathematical,
+   title={A Mathematical Framework for Transformer Circuits},
+   author={Elhage, Nelson and Nanda, Neel and Olsson, Catherine and Henighan, Tom and Joseph, Nicholas and Mann, Ben and Askell, Amanda and Bai, Yuntao and Chen, Anna and Conerly, Tom and DasSarma, Nova and Drain, Dawn and Ganguli, Deep and Hatfield-Dodds, Zac and Hernandez, Danny and Jones, Andy and Kernion, Jackson and Lovitt, Liane and Ndousse, Kamal and Amodei, Dario and Brown, Tom and Clark, Jack and Kaplan, Jared and McCandlish, Sam and Olah, Chris},
+   year={2021},
+   journal={Transformer Circuits Thread},
+   note={https://transformer-circuits.pub/2021/framework/index.html}
+}
+
+@ARTICLE{8481558,
+  author={Dong, Weisheng and Wang, Peiyao and Yin, Wotao and Shi, Guangming and Wu, Fangfang and Lu, Xiaotong},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Denoising Prior Driven Deep Neural Network for Image Restoration}, 
+  year={2019},
+  volume={41},
+  number={10},
+  pages={2305-2318},
+  keywords={Task analysis;Noise reduction;Image restoration;Optimization;Image resolution;Neural networks;Iterative algorithms;denoising-based image restoration;deep neural network;denoising prior;image restoration},
+  doi={10.1109/TPAMI.2018.2873610}}
+
+@Article{e17010151,
+AUTHOR = {Aldana-Bobadilla, Edwin and Kuri-Morales, Angel},
+TITLE = {A Clustering Method Based on the Maximum Entropy Principle},
+JOURNAL = {Entropy},
+VOLUME = {17},
+YEAR = {2015},
+NUMBER = {1},
+PAGES = {151--180},
+URL = {https://www.mdpi.com/1099-4300/17/1/151},
+ISSN = {1099-4300},
+ABSTRACT = {Clustering is an unsupervised process to determine which unlabeled objects in a set share interesting properties. The objects are grouped into k subsets (clusters) whose elements optimize a proximity measure. Methods based on information theory have proven to be feasible alternatives. They are based on the assumption that a cluster is one subset with the minimal possible degree of “disorder”. They attempt to minimize the entropy of each cluster. We propose a clustering method based on the maximum entropy principle. Such a method explores the space of all possible probability distributions of the data to find one that maximizes the entropy subject to extra conditions based on prior information about the clusters. The prior information is based on the assumption that the elements of a cluster are “similar” to each other in accordance with some statistical measure. As a consequence of such a principle, those distributions of high entropy that satisfy the conditions are favored over others. Searching the space to find the optimal distribution of object in the clusters represents a hard combinatorial problem, which disallows the use of traditional optimization techniques. Genetic algorithms are a good alternative to solve this problem. We benchmark our method relative to the best theoretical performance, which is given by the Bayes classifier when data are normally distributed, and a multilayer perceptron network, which offers the best practical performance when data are not normal. In general, a supervised classification method will outperform a non-supervised one, since, in the first case, the elements of the classes are known a priori. In what follows, we show that our method’s effectiveness is comparable to a supervised one. This clearly exhibits the superiority of our method.},
+DOI = {10.3390/e17010151}
+}
+
+@article{Zhen_2023,
+   title={Co-supervised learning paradigm with conditional generative adversarial networks for sample-efficient classification},
+   volume={3},
+   ISSN={2771-392X},
+   url={http://dx.doi.org/10.3934/aci.2023002},
+   DOI={10.3934/aci.2023002},
+   number={1},
+   journal={Applied Computing and Intelligence},
+   publisher={American Institute of Mathematical Sciences (AIMS)},
+   author={Zhen, Hao and Shi, Yucheng and Yang, Jidong J. and Vehni, Javad Mohammadpour},
+   year={2023},
+   pages={13–26} }
+
+@misc{LACI,
+title={Logic and Computation Intertwined},
+url={https://cs.uwaterloo.ca/~plragde/flaneries/LACI/index.html},
+author={Prabhakar Ragde}
+}
+
+@incollection{MARTINLOF1982153,
+title = {Constructive Mathematics and Computer Programming},
+editor = {L. Jonathan Cohen and Jerzy Łoś and Helmut Pfeiffer and Klaus-Peter Podewski},
+series = {Studies in Logic and the Foundations of Mathematics},
+publisher = {Elsevier},
+volume = {104},
+pages = {153-175},
+year = {1982},
+booktitle = {Logic, Methodology and Philosophy of Science VI},
+issn = {0049-237X},
+doi = {https://doi.org/10.1016/S0049-237X(09)70189-2},
+url = {https://www.sciencedirect.com/science/article/pii/S0049237X09701892},
+author = {Per Martin-Löf},
+abstract = {Publisher Summary
+This chapter discusses that relating constructive mathematics to computer programming seems to be beneficial. Among the benefits to be derived by constructive mathematics from its association with computer programming, one is that you see immediately why you cannot rely upon the law of excluded middle: its uninhibited use would lead to programs that one did not know how to execute. By choosing to program in a formal language for constructive mathematics, like the theory of types, one gets access to the conceptual apparatus of pure mathematics, neglecting those parts that depend critically on the law of excluded middle, whereas even the best high level programming languages so far designed are wholly inadequate as mathematical languages. The virtue of a machine code is that a program written in it can be directly read and executed by the machine. The distinction between low and high level programming languages is of course relative to the available hardware. It may well be possible to turn what is now regarded as a high level programming language into machine code by the invention of new hardware.}
+}
+@misc{makelov2023subspace,
+      title={Is This the Subspace You Are Looking for? An Interpretability Illusion for Subspace Activation Patching}, 
+      author={Aleksandar Makelov and Georg Lange and Neel Nanda},
+      year={2023},
+      eprint={2311.17030},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+@misc{hoogland2024developmental,
+      title={The Developmental Landscape of In-Context Learning}, 
+      author={Jesse Hoogland and George Wang and Matthew Farrugia-Roberts and Liam Carroll and Susan Wei and Daniel Murfet},
+      year={2024},
+      eprint={2402.02364},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+@misc{nanda2023progress,
+      title={Progress measures for grokking via mechanistic interpretability}, 
+      author={Neel Nanda and Lawrence Chan and Tom Lieberum and Jess Smith and Jacob Steinhardt},
+      year={2023},
+      eprint={2301.05217},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{klein2021,
+author = {Klein, Brennan and Hoel, Erik and Swain, Anshuman and Griebenow, Ross and Levin, Michael},
+year = {2021},
+month = {12},
+pages = {},
+title = {Evolution and emergence: higher order information structure in protein interactomes across the tree of life},
+volume = {13},
+journal = {Integrative biology : quantitative biosciences from nano to macro},
+doi = {10.1093/intbio/zyab020}
+}
+
+@misc{klein2020emergence,
+      title={The emergence of informative higher scales in complex networks}, 
+      author={Brennan Klein and Erik Hoel},
+      year={2020},
+      eprint={1907.03902},
+      archivePrefix={arXiv},
+      primaryClass={physics.soc-ph}
+}
+
+@article {10.7554/eLife.49921,
+article_type = {journal},
+title = {Combinatorial chromatin dynamics foster accurate cardiopharyngeal fate choices},
+author = {Racioppi, Claudia and Wiechecki, Keira A and Christiaen, Lionel},
+editor = {Davidson, Brad and Stainier, Didier Y},
+volume = 8,
+year = 2019,
+month = {nov},
+pub_date = {2019-11-20},
+pages = {e49921},
+citation = {eLife 2019;8:e49921},
+doi = {10.7554/eLife.49921},
+url = {https://doi.org/10.7554/eLife.49921},
+abstract = {During embryogenesis, chromatin accessibility profiles control lineage-specific gene expression by modulating transcription, thus impacting multipotent progenitor states and subsequent fate choices. Subsets of cardiac and pharyngeal/head muscles share a common origin in the cardiopharyngeal mesoderm, but the chromatin landscapes that govern multipotent progenitors competence and early fate choices remain largely elusive. Here, we leveraged the simplicity of the chordate model \textit{Ciona} to profile chromatin accessibility through stereotyped transitions from naive \textit{Mesp}+ mesoderm to distinct fate-restricted heart and pharyngeal muscle precursors. An FGF-Foxf pathway acts in multipotent progenitors to establish cardiopharyngeal-specific patterns of accessibility, which govern later heart vs. pharyngeal muscle-specific expression profiles, demonstrating extensive spatiotemporal decoupling between early cardiopharyngeal enhancer accessibility and late cell-type-specific activity. We found that multiple \textit{cis}-regulatory elements, with distinct chromatin accessibility profiles and motif compositions, are required to activate \textit{Ebf} and \textit{Tbx1/10}, two key determinants of cardiopharyngeal fate choices. We propose that these ‘combined enhancers’ foster spatially and temporally accurate fate choices, by increasing the repertoire of regulatory inputs that control gene expression, through either accessibility and/or activity.},
+keywords = {chordate, CRISPR/Cas9, heart, Pharyngeal muscle, ATAC-seq, enhancer},
+journal = {eLife},
+issn = {2050-084X},
+publisher = {eLife Sciences Publications, Ltd},
+}
+
+@misc{aytekin2022neural,
+      title={Neural Networks are Decision Trees}, 
+      author={Caglar Aytekin},
+      year={2022},
+      eprint={2210.05189},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@Article{e25010026,
+AUTHOR = {Zhang, Jiang and Liu, Kaiwei},
+TITLE = {Neural Information Squeezer for Causal Emergence},
+JOURNAL = {Entropy},
+VOLUME = {25},
+YEAR = {2023},
+NUMBER = {1},
+ARTICLE-NUMBER = {26},
+URL = {https://www.mdpi.com/1099-4300/25/1/26},
+PubMedID = {36673167},
+ISSN = {1099-4300},
+ABSTRACT = {Conventional studies of causal emergence have revealed that stronger causality can be obtained on the macro-level than the micro-level of the same Markovian dynamical systems if an appropriate coarse-graining strategy has been conducted on the micro-states. However, identifying this emergent causality from data is still a difficult problem that has not been solved because the appropriate coarse-graining strategy can not be found easily. This paper proposes a general machine learning framework called Neural Information Squeezer to automatically extract the effective coarse-graining strategy and the macro-level dynamics, as well as identify causal emergence directly from time series data. By using invertible neural network, we can decompose any coarse-graining strategy into two separate procedures: information conversion and information discarding. In this way, we can not only exactly control the width of the information channel, but also can derive some important properties analytically. We also show how our framework can extract the coarse-graining functions and the dynamics on different levels, as well as identify causal emergence from the data on several exampled systems.},
+DOI = {10.3390/e25010026}
+}
+@article{hoel2016,
+author = {Hoel, Erik and Albantakis, Larissa and Marshall, William and Tononi, Giulio},
+year = {2016},
+month = {08},
+pages = {},
+title = {Can the macro beat the micro? Integrated information across spatiotemporal scales},
+volume = {2016},
+journal = {Neuroscience of Consciousness},
+doi = {10.1093/nc/niw012}
+}

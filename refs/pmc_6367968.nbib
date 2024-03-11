@@ -1,0 +1,81 @@
+PMID- 30788150
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200929
+IS  - 2057-2107 (Electronic)
+IS  - 2057-2107 (Linking)
+VI  - 2016
+IP  - 1
+DP  - 2016
+TI  - Can the macro beat the micro? Integrated information across spatiotemporal 
+      scales.
+PG  - niw012
+LID - 10.1093/nc/niw012 [doi]
+LID - niw012
+AB  - Causal interactions within complex systems such as the brain can be analyzed at 
+      multiple spatiotemporal levels. It is widely assumed that the micro level is 
+      causally complete, thus excluding causation at the macro level. However, by 
+      measuring effective information-how much a system's mechanisms constrain its past 
+      and future states-we recently showed that causal power can be stronger at macro 
+      rather than micro levels. In this work, we go beyond effective information and 
+      consider additional requirements of a proper measure of causal power from the 
+      intrinsic perspective of a system: composition (the cause-effect power of the 
+      parts), state-dependency (the cause-effect power of the system in a specific 
+      state); integration (the causal irreducibility of the whole to its parts), and 
+      exclusion (the causal borders of the system). A measure satisfying these 
+      requirements, called Φ (Max), was developed in the context of integrated 
+      information theory. Here, we evaluate Φ (Max) systematically at micro and macro 
+      levels in space and time using simplified neuronal-like systems. We show that for 
+      systems characterized by indeterminism and/or degeneracy, Φ can indeed peak at a 
+      macro level. This happens if coarse-graining micro elements produces macro 
+      mechanisms with high irreducible causal selectivity. These results are relevant 
+      to a theoretical account of consciousness, because for integrated information 
+      theory the spatiotemporal maximum of integrated information fixes the 
+      spatiotemporal scale of consciousness. More generally, these results show that 
+      the notions of macro causal emergence and micro causal exclusion hold when causal 
+      power is assessed in full and from the intrinsic perspective of a system.
+FAU - Hoel, Erik P
+AU  - Hoel EP
+AD  - Department of Psychiatry, University of Wisconsin, Madison, 6001 Research Park 
+      Blvd, WI 53703, USA.
+FAU - Albantakis, Larissa
+AU  - Albantakis L
+AD  - Department of Psychiatry, University of Wisconsin, Madison, 6001 Research Park 
+      Blvd, WI 53703, USA.
+FAU - Marshall, William
+AU  - Marshall W
+AD  - Department of Psychiatry, University of Wisconsin, Madison, 6001 Research Park 
+      Blvd, WI 53703, USA.
+FAU - Tononi, Giulio
+AU  - Tononi G
+AD  - Department of Psychiatry, University of Wisconsin, Madison, 6001 Research Park 
+      Blvd, WI 53703, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20160831
+PL  - England
+TA  - Neurosci Conscious
+JT  - Neuroscience of consciousness
+JID - 101679109
+PMC - PMC6367968
+OTO - NOTNLM
+OT  - computational modeling
+OT  - consciousness
+OT  - emergence
+OT  - philosophy
+OT  - reductionism
+OT  - theories and models
+EDAT- 2016/08/31 00:00
+MHDA- 2016/08/31 00:01
+CRDT- 2019/02/22 06:00
+PHST- 2016/01/19 00:00 [received]
+PHST- 2016/05/27 00:00 [revised]
+PHST- 2016/07/09 00:00 [accepted]
+PHST- 2019/02/22 06:00 [entrez]
+PHST- 2016/08/31 00:00 [pubmed]
+PHST- 2016/08/31 00:01 [medline]
+AID - niw012 [pii]
+AID - 10.1093/nc/niw012 [doi]
+PST - epublish
+SO  - Neurosci Conscious. 2016 Aug 31;2016(1):niw012. doi: 10.1093/nc/niw012. 
+      eCollection 2016.

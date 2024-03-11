@@ -1,0 +1,80 @@
+\documentclass[mathserif]{beamer}
+\usetheme{default}
+\usepackage{amsmath,amsfonts,tikz,fontspec}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage{graphicx}
+
+\usepackage{algorithm2e}
+\usepackage{multirow}
+\usepackage{makecell, tablefootnote}
+
+\usetikzlibrary{arrows.meta, bending, positioning}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{refs.bib}
+
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan}
+\input{commands}
+
+%\title{Finding an Interpretable Feature Basis with Self-Supervised Classification}
+\title{Are SAE Features Real?}
+\subtitle{Finding an interpretable feature basis with self-supervised classification}
+%\subtitle{Aggregating data into maximum entropy clusters increases feature independence and identifies learned generalizations about the data}
+
+\author{Keira Wiechecki}
+\institute{Center for Genomics \& Systems Biology, New York University}
+\date{\today}
+
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Effective Information \& Causal Emergence\footfullcite{doi:10.1073/pnas.1314922110}}
+  \includegraphics[height=0.8\textheight]{refs/hoel2013/6.pdf}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Self-supervised Denoising\footfullcite{batson2019noise2self}}
+  TODO
+\end{frame}
+
+\begin{frame}
+  \frametitle{Outer Model}
+  TODO
+\end{frame}
+
+\begin{frame}
+  \frametitle{Inner Models}
+  TODO
+\end{frame}
+
+\begin{frame}
+  \frametitle{References}
+  \printbibliography
+\end{frame}
+
+\begin{frame}
+  \frametitle{Appendix}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Determinism, Degeneracy, Necessity, Sufficiency\footfullcite{doi:10.1073/pnas.1314922110}}
+  \includegraphics[height=0.8\textheight]{refs/comolatti2022/1.pdf}
+\end{frame}
+
+\end{document}
+		
